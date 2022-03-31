@@ -70,10 +70,6 @@ function processImg(){
                             start: lineStart,
                             end: getX(x)
                         });
-                        if(lines.length >= 5000){
-                            document.getElementById('filename').innerText = "Image too complex!";
-                            return;
-                        }
 
                         hasLine = false;
                     }
